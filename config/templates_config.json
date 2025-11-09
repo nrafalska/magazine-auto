@@ -1,0 +1,98 @@
+{
+  "covers": {
+    "fashion": [
+      {
+        "file": "vogue_designes_scripts_label.idml",
+        "page": 1,
+        "description": "Модна обкладинка - базовий варіант"
+      },
+      {
+        "file": "cover_fashion_v2.idml",
+        "page": 1,
+        "description": "Модна обкладинка - альтернативний варіант"
+      }
+    ],
+    "minimal": [
+      {
+        "file": "cover_minimal_v1.idml",
+        "page": 1,
+        "description": "Мінімалістична обкладинка"
+      }
+    ],
+    "family": [
+      {
+        "file": "cover_family_v1.idml",
+        "page": 1,
+        "description": "Сімейна обкладинка"
+      }
+    ],
+    "18plus": [
+      {
+        "file": "cover_18plus_v1.idml",
+        "page": 1,
+        "description": "Обкладинка 18+"
+      }
+    ]
+  },
+  
+  "spreads": {
+    "fashion": [
+      {
+        "file": "julia_stula.idml",
+        "pages": [2, 3],
+        "description": "Модний розворот - варіант 1"
+      },
+      {
+        "file": "julia_stula.idml",
+        "pages": [4, 5],
+        "description": "Модний розворот - варіант 2"
+      },
+      {
+        "file": "julia_stula.idml",
+        "pages": [6, 7],
+        "description": "Модний розворот - варіант 3"
+      }
+    ],
+    "minimal": [
+      {
+        "file": "spread_minimal_v1.idml",
+        "pages": [2, 3],
+        "description": "Мінімалістичний розворот"
+      },
+      {
+        "file": "spread_minimal_v2.idml",
+        "pages": [2, 3],
+        "description": "Мінімалістичний розворот - альтернатива"
+      }
+    ],
+    "family": [
+      {
+        "file": "spread_family_v1.idml",
+        "pages": [2, 3],
+        "description": "Сімейний розворот"
+      }
+    ],
+    "18plus": [
+      {
+        "file": "spread_18plus_v1.idml",
+        "pages": [2, 3],
+        "description": "Розворот 18+"
+      }
+    ]
+  },
+  
+  "notes": {
+    "template_requirements": [
+      "Всі шаблони повинні мати Script Labels для автоматизації",
+      "Обкладинка: COVER_IMAGE, COVER_TITLE, COVER_SUB",
+      "Розворот ліворуч: L_IMG1, L_TITLE, L_QUOTE",
+      "Розворот праворуч: R_IMG1, R_NAME, R_BIO, R_FACTS"
+    ],
+    "how_to_add_new_template": [
+      "1. Створіть новий IDML файл в папці templates/",
+      "2. Додайте Script Labels на потрібні фрейми",
+      "3. Додайте опис шаблону в цей конфіг файл",
+      "4. Скрипт автоматично використовуватиме новий шаблон"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+type,position,photo_path,title,subtitle,body_text,quote,name,facts
+cover,1,input/photos/cover_main.jpg,VIKTORIA,The Art of Being Her,,,,
+spread,2-3,input/photos/photo_01.jpg|input/photos/photo_02.jpg,Beauty,with Purpose,"Viktoria is a creative soul who finds beauty in everyday moments. Her journey started with a simple passion for photography and evolved into a lifestyle of mindful living.","Life is the most beautiful art",Viktoria,
+spread,4-5,input/photos/photo_03.jpg|input/photos/photo_04.jpg,Style,Your Energy,"Fashion is not just about clothes - it's about expressing who you are. Viktoria believes in sustainable choices and timeless pieces that tell a story.","Style is a way to say who you are without speaking",Viktoria,
+spread,6-7,input/photos/photo_05.jpg|input/photos/photo_06.jpg,Power,of Softness,"True strength comes from vulnerability and authenticity. Viktoria's approach to life is gentle but unwavering.","The most powerful thing you can be is yourself",Viktoria,
